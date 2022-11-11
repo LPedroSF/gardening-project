@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Work</title>
+    <link rel="stylesheet" href="styles.css">
+        <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/aae1ff0b84.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a class="black" href="index.html">
+                <h1 class="nav-title">TITLE</h1>
+            </a>
+            <ul class="nav__link--list">
+                <a class="nav--link black" href="#work">
+                   <li>Our Work</li> 
+                </a>
+                <a class="nav--link black" href="#about">
+                    <li>About us</li>
+                </a>
+                <a class="nav--link black" href="#contact">
+                    <li>Contacts</li>
+                </a>
+            </ul>
+            <button class="btn__menu" onclick="openMenu();">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="menu__backdrop">
+                <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <ul class="menu__links">
+                    <li class="menu__list">
+                        <a href="index.html" class="menu__link"  onclick="closeMenu()">
+                            Home
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="projects">
+        <div class="container">
+            <h1 class="section__title">OUR WORK</h1>
+            <div class="row">
+                <div class="projects">
+                    <div class="project">
+                        <img class="img" src="assets\pic1.jpg" />
+                    </div>
+            
+                    <div class="project">
+                        <img class="img" src="assets\pic2.jpg" />
+                    </div>
+            
+                    <div class="project">
+                        <img class="img" src="assets\pic3.jpg" />
+                    </div>
+            
+                    <div class="project">
+                        <img class="img" src="assets\pic4.jpg" />
+                    </div>
+            
+                    <div class="project">
+                        <img class="img" src="assets\pic6.jpg" />
+                    </div>
+            
+                    <div class="project">
+                        <img class="img" src="assets\pic7.jpg" />
+                    </div>
+            
+                    <div class="project">
+                        <img class="img" src="assets\pic8.jpg" />
+                    </div>
+            
+                    <div class="project">
+                        <img class="img" src="assets\pic9.jpg" />
+                    </div>
+            
+                    <div class="project">
+                        <img class="img" src="assets\pic10.jpg" />
+                    </div>
+            
+                    <div class="project">
+                        <img class="img" src="assets\pic11.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__container">
+            <div class="row">
+                <h1 class="footer__title">TITLE</h1>
+                <ul class="footer__link--list">
+                    <a href="#landing">
+                        <li class="footer--link">Home</li>
+                    </a>
+                    <a href="#work">
+                        <li class="footer--link">Our Work</li>
+                    </a>
+                    <a href="#about">
+                        <li class="footer--link">About Us</li>
+                    </a>
+                    <a href="#contact">
+                        <li class="footer--link">Contact</li>
+                    </a>
+                </ul>
+            </div>
+            <p class="cr">Created by <span><a class="creator" href="www.luisfaria.co.uk">Luis Faria</a></span></a>. All right reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
