@@ -10,8 +10,8 @@
 body,
 html{
     scroll-behavior: smooth;
-    width: 100% !important;
-    overflow-x: hidden !important;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 body{
@@ -177,9 +177,11 @@ button{
 }
 
 .header--title{
-    font-size: 60px;
+    font-size: 75px;
     text-align: center;
     margin-top: 250px;
+    padding: 8px 16px;
+    border-radius: 8px;
 }
 
 /*
@@ -240,7 +242,7 @@ button{
 
 .about{
     display: flex;
-    padding: 32px 16px;
+    padding: 16px;
 }
 
 .wave-img{
@@ -249,7 +251,7 @@ button{
 }
 
 .about__description{
-    padding: 0 16px;
+    padding-right: 8px;
     text-align: center;
 }
 
@@ -364,16 +366,21 @@ footer{
         left:50%
     }
 
-    .about__title{
-        margin-top: 32px;
+    .about__description{
+        margin-bottom: 16px;
     }
 
     .availability{
-        width: 100%;
-        border-bottom: 2px solid #649664;
+        width: 60%;
+        border-right: none;
+        border-bottom:  2px solid #649664;
+        padding-bottom: 16px;
     }
 
     .contacts{
-        border:none;
+        padding-left: 0;
+        border-top:  2px solid #649664;
+        border-left:none;
+        padding-top: 16px;
     }
 }
