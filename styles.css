@@ -378,9 +378,14 @@ footer{
     }
 
     .contacts{
+        width:60%;
         padding-left: 0;
         border-top:  2px solid #649664;
         border-left:none;
         padding-top: 16px;
+    }
+
+    .numbers{
+        justify-content: center;
     }
 }
